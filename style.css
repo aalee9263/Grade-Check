@@ -7,7 +7,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100vh;
 }
 
@@ -16,26 +15,34 @@ h1 {
 }
 
 form {
+    max-width: 600px;
+    margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
-    width: 100%;
+    
+    
 }
 
 label {
-    font-weight: bold;
+    font-weight: 700;
     display: block;
     margin-bottom: 10px;
 }
 
+#percentage{
+    width: 50%;
+}
+
 input[type="text"] {
-    width: 380px;
-    padding: 10px;
+    /* width: 120px; */
+    padding: 2px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 button {
@@ -53,7 +60,8 @@ button:hover {
 }
 
 p#result {
-    font-weight: bold;
+    font-weight: 700;
     margin-top: 20px;
     color: #333;
+    font-size: 35px;
 }
