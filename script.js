@@ -21,7 +21,8 @@ function checkGrade() {
             grade = "F";
         }
 
-        // Display the result
-        document.getElementById("result").textContent = "Your grade is: " + grade;
+        // Display the result and grading
+        var resultElement = document.getElementById("result");
+        resultElement.innerHTML = "Your grade is: <span id='grade'>" + grade + "</span>";
     }
 }
